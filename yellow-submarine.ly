@@ -44,19 +44,23 @@ melody = \relative c'' {
   d'4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 | 
   a8. a16 a8. a16 a4 r4 | 
-  g8. g16 g8. g16 g4 b8. c16 |
-  d2~  d8. b16 a8. b16 |
+  g8. g16 g8. g16 g4 
+
+  b8. c16 | d2~  d8. b16 a8. b16 |
   g2. b8. b16 | 
   a8. g16 e4~ e8. e16 b'8. b16 |
-  a2. b8. c16 | 
-  d2~  d8. b16 a8. b16 |
+  a2. 
+
+  b8. c16 | d2~  d8. b16 a8. b16 |
   g2. b8. b16 |  
   a8. \melisma g16 \melismaEnd e2 b'8. b16 |
   a1 |
+
   d4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 | 
-  g8. g16 g8. g16 g4 r4 |      
+  g8. g16 g8. g16 g4 r4 |
+      
   d'4 d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
