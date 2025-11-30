@@ -5,6 +5,7 @@
 \header {
   title = "Yellow Submarine"
   arranger = "Arr. John Deverall"
+  composer = "Lennon–McCartney"
   instrument = "Lead Sheet – Voice / Melody & Guitar"
   tagline = ""
 }
