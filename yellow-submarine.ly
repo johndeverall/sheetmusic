@@ -20,17 +20,18 @@ melody = \relative c'' {
     a2. b8. c16 |
     d2~ d8. b16 a8. b16 |
     g2. b8. b16 | 
-    a8. \melisma g16 e4~ e8. \melismaEnd e16 b'8. b16 |
   }
 
   \alternative {
     % 1st time bar: only 3 beats to "balance" the 1-beat pickup
     {
+      a8. \melisma g16 e4~ e8. \melismaEnd e16 b'8. b16 |
       \partial 4*3
       a2. :||          % 3 beats
     }
     % 2nd time bar: a full 4/4 bar
     {
+      a8. \melisma g16 e2 \melismaEnd b'8. b16 | 
       a1 \bar "||"       % 4 beats – change this to whatever you actually want
     }
   }
@@ -59,7 +60,7 @@ melody = \relative c'' {
   d'4 d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
-  g8. g16 g8. g16 g2 \bar ":|."
+  g8. g16 g8. g16 g2 \bar "|."
 }
 
 verseone = \lyricmode {
@@ -72,7 +73,14 @@ verseone = \lyricmode {
   told us of his life
   in the land __ of 
   sub -- ma -- rines.  
-  rines.
+
+  \repeat volta 2 
+  { } 
+ 
+  \alternative { 
+    { \skip 1 \skip 1 \skip 4 \skip 1 } 
+  }
+ 
   We all live in a 
   yel -- low sub -- ma -- rine. 
   Yel -- low sub -- ma -- rine, 
@@ -98,8 +106,8 @@ verseone = \lyricmode {
 versetwo = \lyricmode {
   So we sailed on to the sun
   till we found __ the sea of green
-  and we lived be -- neath the waves
-  in our yellow __ submarine.
+  and we lived be -- neath the waves in our 
+  yellow __ submarine.
 }
 
 
