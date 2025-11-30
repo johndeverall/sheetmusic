@@ -48,15 +48,15 @@ melody = \relative c'' {
 
   b8. c16 | d2~  d8. b16 a8. b16 |
   g2. b8. b16 | 
-  a8. g16 e4~ e8. e16 b'8. b16 |
+  a8. g16 e2 b'8. b16 |
   a2. 
 
   b8. c16 | d2~  d8. b16 a8. b16 |
-  g2. b8. b16 |  
-  a8. \melisma g16 \melismaEnd e2 b'8. b16 |
-  a1 |
+  g2. r4^\markup { \bold "Band improv (free)" } |  
+  r1 |
+  r1 |
 
-  d4 d d d8. e16 | 
+  d'4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 | 
   g8. g16 g8. g16 g4 r4 |
@@ -64,7 +64,30 @@ melody = \relative c'' {
   d'4 d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
-  g8. g16 g8. g16 g4 r4 \bar "|."
+  g8. g16 g8. g16 g4 r4 | 
+
+  r1^\markup { \bold "Band improv (free)" }| r1 | r1 | r1 |
+  r1 | r1 | r1 | r2. 
+
+  b8. c16 | d2~  d8. b16 a8. b16 |
+  g2. b8. b16 |
+  a8. g16 e4~ e8. e16 b'8. b16 |
+  a2.
+
+  b8. c16 | d2~  d8. b16 a8. b16 |
+  g2. b8. b16 |  
+  a8. \melisma g16 \melismaEnd e2 b'8. b16 |
+  a1 | \bar ".|:" 
+
+  d4 d d d8. e16 |
+  a,8. a16 a8. a16 a4 r4 |
+  a8. a16 a8. a16 a4 r4 |
+  g8. g16 g8. g16 g4 r4 |
+   
+  d'4 d d d8. e16 |
+  a,8. a16 a8. a16 a4 r4 |
+  a8. a16 a8. a16 a4 r4 |
+  g8. g16 g8. g16 g4 r4 | \bar ":|."
 }
 
 verseone = \lyricmode {
@@ -89,6 +112,20 @@ verseone = \lyricmode {
   yel -- low sub -- ma -- rine, 
   yel -- low sub -- ma -- rine, 
   yel -- low sub -- ma -- rine.
+
+  And our friends are all a -- board
+  Ma -- ny more of them live next door
+  And the band be -- gins to play
+
+  We all live in a
+  yel -- low sub -- ma -- rine.
+  Yel -- low sub -- ma -- rine,
+  Yel -- low sub -- ma -- rine.
+  We all live in a
+  yel -- low sub -- ma -- rine,
+  yel -- low sub -- ma -- rine,
+  yel -- low sub -- ma -- rine.
+
   As we live a life of ease. 
   Ev -- rey one of us 
   has all we need. Sky of blue
