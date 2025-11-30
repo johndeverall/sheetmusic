@@ -39,7 +39,7 @@ melody = \relative c'' {
   d4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 | 
   a8. a16 a8. a16 a4 r4 | 
-  g8. g16 g8. g16 g2 |
+  g8. g16 g8. g16 g4 r4 |
   
   d'4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 | 
@@ -56,11 +56,11 @@ melody = \relative c'' {
   d4 d d d8. e16 | 
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 | 
-  g8. g16 g8. g16 g2 |      
+  g8. g16 g8. g16 g4 r4 |      
   d'4 d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
-  g8. g16 g8. g16 g2 \bar "|."
+  g8. g16 g8. g16 g4 r4 \bar "|."
 }
 
 verseone = \lyricmode {
@@ -68,19 +68,15 @@ verseone = \lyricmode {
   town where I was
   born lived a
   man __ who
-  sailed the
+  sailed to 
   sea. And he 
   told us of his life
   in the land __ of 
   sub -- ma -- rines.  
-
-  \repeat volta 2 
-  { } 
- 
-  \alternative { 
-    { \skip 1 \skip 1 \skip 4 \skip 1 } 
-  }
- 
+  \skip 1 
+  \skip 1
+  \skip 4 
+  \skip 1 
   We all live in a 
   yel -- low sub -- ma -- rine. 
   Yel -- low sub -- ma -- rine, 
@@ -106,11 +102,15 @@ verseone = \lyricmode {
 versetwo = \lyricmode {
   So we sailed on to the sun
   till we found __ the sea of green
-  and we lived be -- neath the waves in our 
-  yellow __ submarine.
+  and we lived be -- neath the 
+  waves in our 
+  \skip 1
+  \skip 2.
+  \skip 4
+  \skip 4
+  \skip 1 
+  yellow __ sub -- mar -- ine.
 }
-
-
 
 \score {
   <<
