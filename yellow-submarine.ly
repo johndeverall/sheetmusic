@@ -1,9 +1,11 @@
 \version "2.24.4"
 
+#(set-global-staff-size 18)
+
 \header {
   title = "Yellow Submarine"
   arranger = "Arr. John Deverall"
-  instrument = "For Descant Recorder"
+  instrument = "Lead Sheet – Voice / Melody & Guitar"
   tagline = ""
 }
 
@@ -66,8 +68,8 @@ melody = \relative c'' {
   a8. a16 a8. a16 a4 r4 |
   g8. g16 g8. g16 g4 r4 | 
 
-  r1^\markup { \bold "Band improv (free)" }| r1 | r1 | r1 |
-  r1 | r1 | r1 | r2. 
+  r2.^\markup { \bold "Band improv (free)" } r4 | r2. r4 | r2. r4 | r2. r4 |
+  r2. r4 | r2. r4 | r2. r4 | r2. 
 
   b8. c16 | d2~  d8. b16 a8. b16 |
   g2. b8. b16 |
@@ -77,14 +79,14 @@ melody = \relative c'' {
   b8. c16 | d2~  d8. b16 a8. b16 |
   g2. b8. b16 |  
   a8. \melisma g16 \melismaEnd e2 b'8. b16 |
-  a1 | \bar ".|:" 
+  a1 \noBreak | \bar ".|:" 
 
   d4 d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
   g8. g16 g8. g16 g4 r4 |
    
-  d'4 d d d8. e16 |
+  d'4^\markup { \bold "2nd time fade out" } d d d8. e16 |
   a,8. a16 a8. a16 a4 r4 |
   a8. a16 a8. a16 a4 r4 |
   g8. g16 g8. g16 g4 r4 | \bar ":|."
@@ -155,6 +157,29 @@ versetwo = \lyricmode {
 
 \score {
   <<
+    \new ChordNames {
+      \set majorSevenSymbol = \markup { Maj7 }
+      \chordmode { 
+        g4 | d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 g4 |
+        d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 |
+        a2.:min c4 | d1:7 |
+     
+        g1 | d1 | d1 | g1 | g1 | d1 | d1 | g1 |
+
+        d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 g4 |
+        d2. c4 | g2. s4 | s1 | s1 |
+      
+        g1 | d1 | d1 | g1 | g1 | d1 | d1 | g1 |
+
+        d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 g4 |
+        d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 g4 |
+
+        d2. c4 | g2. e4:min | a2.:min c4 | d2.:7 g4 |
+        d2. c4 | g2. e4:min | a2.:min c4 | d1:7 |
+
+        g1 | d1 | d1 | g1 | g1 | d1 | d1 | g1 |
+      }
+    }
     \new Voice = "mel" { \melody }
     \new Lyrics \lyricsto "mel" \verseone
     \new Lyrics \lyricsto "mel" \versetwo
