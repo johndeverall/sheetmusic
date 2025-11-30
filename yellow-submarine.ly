@@ -108,9 +108,9 @@ verseone = \lyricmode {
   \skip 4 
   \skip 1 
   We all live in a 
+  yel -- low sub -- ma -- rine, 
+  yel -- low sub -- ma -- rine, 
   yel -- low sub -- ma -- rine. 
-  Yel -- low sub -- ma -- rine, 
-  Yel -- low sub -- ma -- rine. 
   We all live in a 
   yel -- low sub -- ma -- rine, 
   yel -- low sub -- ma -- rine, 
@@ -121,9 +121,9 @@ verseone = \lyricmode {
   And the band be -- gins to play
 
   We all live in a
+  yel -- low sub -- ma -- rine,
+  yel -- low sub -- ma -- rine,
   yel -- low sub -- ma -- rine.
-  Yel -- low sub -- ma -- rine,
-  Yel -- low sub -- ma -- rine.
   We all live in a
   yel -- low sub -- ma -- rine,
   yel -- low sub -- ma -- rine,
@@ -135,12 +135,12 @@ verseone = \lyricmode {
   and sea of green in our yel __ low   
   sub mar ine.
   We all live in a
+  yel -- low sub -- ma -- rine, 
+  yel -- low sub -- ma -- rine, 
   yel -- low sub -- ma -- rine. 
-  Yel -- low sub -- ma -- rine, 
-  Yel -- low sub -- ma -- rine. 
-  We all live in a yel -- low sub -- ma -- rine. 
-  Yel -- low sub ma rine, 
-  Yel -- low sub -- ma -- rine.
+  We all live in a yel -- low sub -- ma -- rine, 
+  yel -- low sub ma rine, 
+  yel -- low sub -- ma -- rine.
 }
 
 versetwo = \lyricmode {
